@@ -9,10 +9,18 @@
 <body>
    <h1>Holiday Contact List</h1> 
    <p>
-       <form>
-           <input type="text" placeholder="Name">
-           <input type="text" placeholder="Email">
+      <div class="container">
+<form id="contact" action="https://formspree.io/f/moqrkjrg"
+  method="POST">
+           <input type="text" name=full_name placeholder="Name">
+           <input type="email" name=email placeholder="Email">
+           <input type="text" name="Contact" placeholder="Contact">
+           <input type="date" name="date" placeholder="Dates">
+           <input type="time" name="time" placeholder="Check-in">
+           <button type="submit">Submit</button>
+          
        </form>
+      </div> 
        </p>
        <a href="./index.html">Home Page</a>
 </body>
